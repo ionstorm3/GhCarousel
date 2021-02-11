@@ -1,0 +1,31 @@
+{
+   "type": "module",
+   "name": "GhCarousel",
+   "version": "1.0.0",
+   "description": "Vanilla JS image carousel",
+   "main": "index.js",
+   "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1",
+      "serve": "http-server src -d -p 8080",
+      "scss": "node-sass --watch src/styles -o src/styles"
+   },
+   "repository": {
+      "type": "git",
+      "url": "git+https://github.com/ionstorm3/GhCarousel.git"
+   },
+   "keywords": [],
+   "author": "",
+   "license": "ISC",
+   "bugs": {
+      "url": "https://github.com/ionstorm3/GhCarousel/issues"
+   },
+   "homepage": "https://github.com/ionstorm3/GhCarousel#readme",
+   "dependencies": {
+      "node-sass": "^5.0.0"
+   },
+   "devDependencies": {
+      "@types/node": "^14.14.22",
+      "http-server": "^0.12.3",
+      "typescript": "^4.1.3"
+   }
+}

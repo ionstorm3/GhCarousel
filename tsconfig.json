@@ -1,0 +1,35 @@
+{
+   "compilerOptions": {
+      "target": "es6",
+      "module": "esnext",
+      "lib": [
+         "dom",
+         "es2015",
+         "dom.iterable"
+      ],
+      "watch": false,
+      "strict": true,
+      "jsx": "preserve",
+      "moduleResolution": "node",
+      "experimentalDecorators": true,
+      "emitDecoratorMetadata": true,
+      "allowSyntheticDefaultImports": true,
+      "sourceMap": true,
+      "baseUrl": ".",
+      "types": [
+         "node"
+      ],
+      "paths": {
+         "@/*": [
+            "src/*"
+         ]
+      }
+   },
+   "include": [
+      "src/**/*.ts",
+      "tests/**/*.ts"
+   ],
+   "exclude": [
+      "node_modules"
+   ]
+}
